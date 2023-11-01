@@ -8,10 +8,10 @@ int main()
         r = r*10 + (n%10);
         n = n/10;
     }
-        if(r == x){
-            printf("Palindrome");
-        }
-        else{
-           printf("Not Palindrome");
-        }
+    if(x == r){
+        printf("Palindrome");
+    }
+    else{
+        printf("Not Palindrome");
+    }
 }
